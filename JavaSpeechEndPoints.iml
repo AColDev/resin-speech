@@ -12,5 +12,6 @@
     <orderEntry type="library" name="google-api-translate-java-0.97" level="project" />
     <orderEntry type="library" name="freetts" level="project" />
     <orderEntry type="library" name="cmu_time_awb" level="project" />
+    <orderEntry type="library" name="shouter-v1-1.21.0-SNAPSHOT" level="project" />
   </component>
 </module>

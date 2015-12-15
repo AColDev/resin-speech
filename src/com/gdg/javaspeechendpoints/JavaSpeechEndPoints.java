@@ -10,6 +10,7 @@ public class JavaSpeechEndPoints {
     {
         Voice voiceKevin16 = new Voice("kevin16");
 
+
         String[] thingsToSay = new String[]
                 {
                         "Welcome to GDG",
@@ -49,32 +50,3 @@ class Voice
         this.systemVoice.deallocate();
     }
 }
-
-    /**VoiceManager freettsVM;
-    Voice freettsVoice;
-
-    public JavaSpeechEndPoints(String words) {
-        // Most important part!
-        System.setProperty("mbrola.base", "/Users/Spartan/Dropbox/GDG/JavaSpeechEndPoints/data/mbrola");
-        freettsVM = VoiceManager.getInstance();
-
-        // Simply change to MBROLA voice
-        freettsVoice = freettsVM.getVoice("mbrola_us1");
-
-        // Allocate your chosen voice
-        freettsVoice.allocate();
-        sayWords(words);
-    }
-
-    public void sayWords(String words) {
-        // Make her speak!
-        freettsVoice.speak(words);
-    }
-
-    public static void main(String[] args) {
-        JavaSpeechEndPoints orangutan = new JavaSpeechEndPoints("String");
-        orangutan.sayWords("Something");
-
-        //new JavaSpeechEndPoints("Hello there! Now M BROLA and Free T T S work together!");
-    }
-}*/
