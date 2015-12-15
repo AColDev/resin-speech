@@ -5,12 +5,12 @@ import com.sun.speech.freetts.VoiceManager;
 /**
  * Created by Spartan on 12/15/15.
  */
-public class JavaSpeechEndPoints {
+public class JavaSpeechEndPoints{
 
     public static void main(String[] args) throws Exception {
         Voice voiceKevin16 = new Voice("kevin16");
-        ShouterClient myMain = new ShouterClient();
 
+        ShouterClient myMain = new ShouterClient();
         String[] thingsToSay = new String[]
                 {
                         myMain.getMessage(),

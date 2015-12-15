@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="shouter-v1-1.21.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/shouter-v1-1.21.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
