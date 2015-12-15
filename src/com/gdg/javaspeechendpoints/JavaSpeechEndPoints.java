@@ -6,14 +6,14 @@ import com.sun.speech.freetts.VoiceManager;
  * Created by Spartan on 12/15/15.
  */
 public class JavaSpeechEndPoints {
-    public static void main(String[] args)
-    {
-        Voice voiceKevin16 = new Voice("kevin16");
 
+    public static void main(String[] args) throws Exception {
+        Voice voiceKevin16 = new Voice("kevin16");
+        ShouterClient myMain = new ShouterClient();
 
         String[] thingsToSay = new String[]
                 {
-                        "Welcome to GDG",
+                        myMain.getMessage(),
                 };
 
         voiceKevin16.say(thingsToSay);
