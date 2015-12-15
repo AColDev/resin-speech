@@ -2,7 +2,7 @@
 
 cd /App
 CP() { local IFS=:; echo "$*";}
-javac -d . -cp "$(CP lib/*.jar)" src/com/gdg/javaspeechendpoints/*.java
+javac -d . -cp "$(CP libs/*.jar)" src/com/gdg/javaspeechendpoints/*.java
 
 CP() { local IFS=:; echo "$*";}
-java -cp .:"$(CP lib/*.jar)":"$(CP src/*)" com.gdg.app.javaEndPoints.JavaEndPoints
+java -cp .:"$(CP libs/*.jar)":"$(CP src/*)" com.gdg.app.javaEndPoints.JavaEndPoints
